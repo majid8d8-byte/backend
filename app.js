@@ -6,7 +6,7 @@ app.use(express.json());
 function plus(numbe) {
   return numbe + 10;
 }
-
+console.log("majid");
 app.post("/", (req, res) => {
   const number = parseInt(req.body.number);
 
